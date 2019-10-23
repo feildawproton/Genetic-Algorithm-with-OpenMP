@@ -1,0 +1,65 @@
+﻿  GA.c
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\ga.c(31): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\ga.c(46): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\ga.c(164): warning C4028: formal parameter 1 different from declaration
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\ga.c(191): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\ga.c(198): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\ga.c(263): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\ga.c(289): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\ga.c(323): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\ga.c(336): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  main.c
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(81): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(82): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(84): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(95): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(129): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(130): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(145): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(146): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(150): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(151): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(153): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(166): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(167): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(173): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(182): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(197): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(198): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(242): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(243): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(245): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(256): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(265): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(266): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(268): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(279): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(285): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(296): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(302): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(315): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(321): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(561): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(564): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(567): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(574): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(579): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(580): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(583): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(587): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(592): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(594): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(596): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(597): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(599): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(600): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(601): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(605): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(608): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(619): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(629): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(630): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(645): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\main.c(650): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Generating Code...
+  MSIM722_GA_GA.vcxproj -> C:\Users\feild\OneDrive\Documents\MSIM722_GA_GA\x64\Debug\MSIM722_GA_GA.exe
