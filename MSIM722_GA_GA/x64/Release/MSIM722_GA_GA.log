@@ -1,9 +1,0 @@
-﻿  GA.c
-c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\ga.c(44): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\feild\onedrive\documents\msim722_ga_ga\msim722_ga_ga\ga.c(59): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-  Generating code
-  2 of 7 functions (28.6%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    1 functions had inline decision re-evaluated but remain unchanged
-  Finished generating code
-  MSIM722_GA_GA.vcxproj -> C:\Users\feild\OneDrive\Documents\MSIM722_GA_GA\x64\Release\MSIM722_GA_GA.exe
