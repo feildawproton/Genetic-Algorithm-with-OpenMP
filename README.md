@@ -3,6 +3,7 @@ This is an implementation of a genetic algorithm with floating point codes inste
 This significantly speeds up search, though it resembles random search a little more.
 All genetic pooling and child rules are kept intact.
 OpenMP is used to speed up population creation, fitness function evaluation, mating, etc.
+From 2018 (msim722).
 
 # Usage
 Create your objective and cost functions as function of the number of design variables a const float pointer to them.
