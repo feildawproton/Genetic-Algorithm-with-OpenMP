@@ -12,7 +12,7 @@ Then call optimPop_Min() or optimPop_Max() depending on whether you are minimizi
 After all that you should destroy the fitness function with destroy_FiFunc();
 
 # Floating Point Chromosome Representation
-**- Chosen crossover strategy: crossover occurs at the resolution of design variables
+- Chosen crossover strategy: crossover occurs at the resolution of design variables
 - Mutation operation can be modeled as:
   𝑖𝑡ℎ𝑏𝑖𝑡=𝑟𝑎𝑛𝑑(0,𝑏𝑖𝑡𝑟𝑒𝑠)
   𝑣𝑎𝑙= (2^𝑖𝑡ℎ𝑏𝑖𝑡/2^𝑏𝑖𝑡𝑟𝑒𝑠 )(ub −lb)
