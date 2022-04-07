@@ -80,7 +80,11 @@ All constraints satisfied at “optimal”
 ![image](https://user-images.githubusercontent.com/56926839/162250369-32c8efd4-5409-4858-945f-e19f34faed2e.png)
 ![image](https://user-images.githubusercontent.com/56926839/162250429-9c1faccb-6a1b-4ecb-9e78-0af1322240fe.png)
 
-
+## Example 5, Highly Non-linear
+![image](https://user-images.githubusercontent.com/56926839/162250651-c9cb3392-4833-4e74-b7f1-516cbc7597be.png)
+![image](https://user-images.githubusercontent.com/56926839/162250724-2d6ef35c-8ee5-4969-874f-5ebffba36a76.png)
+![image](https://user-images.githubusercontent.com/56926839/162250743-9d1b02c6-1ee0-4e17-84d1-286b5000cb3a.png)
+![image](https://user-images.githubusercontent.com/56926839/162250756-81f1674b-a353-4b44-a68f-a8d78208a820.png)
 
 
 
