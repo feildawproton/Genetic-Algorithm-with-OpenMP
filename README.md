@@ -12,7 +12,7 @@ Then call optimPop_Min() or optimPop_Max() depending on whether you are minimizi
 After all that you should destroy the fitness function with destroy_FiFunc();
 
 # Floating Point Chromosome Representation
-- Chosen crossover strategy: crossover occurs at the resolution of design variables
+**- Chosen crossover strategy: crossover occurs at the resolution of design variables
 - Mutation operation can be modeled as:
   𝑖𝑡ℎ𝑏𝑖𝑡=𝑟𝑎𝑛𝑑(0,𝑏𝑖𝑡𝑟𝑒𝑠)
   𝑣𝑎𝑙= (2^𝑖𝑡ℎ𝑏𝑖𝑡/2^𝑏𝑖𝑡𝑟𝑒𝑠 )(ub −lb)
@@ -23,5 +23,5 @@ After all that you should destroy the fitness function with destroy_FiFunc();
   〖𝑚𝑢𝑡𝐷𝑉〗_𝑐ℎ𝑟𝑜𝑚∼𝑟𝑎𝑛𝑑(〖𝐷𝑉〗_𝑐ℎ𝑟𝑜𝑚+𝑟𝑎𝑛𝑑(𝑙𝑏 −〖𝐷𝑉〗_𝑐ℎ𝑟𝑜𝑚, ub −〖𝐷𝑉〗_𝑐ℎ𝑟𝑜𝑚 ))
 - Which can be further simplified to the following (with the chosen mutation strategy):
   𝑟𝑛𝑑𝑖𝑛𝑡~ 𝑟𝑎𝑛𝑑() % (2^𝑏𝑖𝑡𝑟𝑒𝑠+1)
-  〖𝑚𝑢𝑡𝐷𝑉〗_𝑐ℎ𝑟𝑜𝑚=  𝑟𝑛𝑑𝑖𝑛𝑡/(2^𝑏𝑖𝑡𝑟𝑒𝑠−1) (𝑢𝑏 −𝑙𝑏)+𝑙𝑏
+  〖𝑚𝑢𝑡𝐷𝑉〗_𝑐ℎ𝑟𝑜𝑚=  𝑟𝑛𝑑𝑖𝑛𝑡/(2^𝑏𝑖𝑡𝑟𝑒𝑠−1) (𝑢𝑏 −𝑙𝑏)+𝑙𝑏**
 ![image](https://user-images.githubusercontent.com/56926839/162248177-d409108f-a4f1-41bd-aa43-ebf8a44cac1c.png)
