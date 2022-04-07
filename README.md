@@ -69,6 +69,18 @@ All constraints satisfied at “optimal”
 
 ## Example 3, Sixe, Shape, and Topology, Failed FEA, p=20,000, std_dev_allow = 20,000, theta = 30 degrees, b1 = b3, alpha = .15, E = 10s*qrt(2)*20,000
 ![image](https://user-images.githubusercontent.com/56926839/162250072-e5c8110c-34e7-489e-8104-ea9c6a403894.png)
+![image](https://user-images.githubusercontent.com/56926839/162250152-a00ad31d-6d8f-4e4e-9ece-8897a6547443.png)
+![image](https://user-images.githubusercontent.com/56926839/162250183-42ba44b9-7192-4e9c-88e6-92fd7f01f2c8.png)
+
+## Example 4, Transportation
+![image](https://user-images.githubusercontent.com/56926839/162250274-9d99ae34-9080-43f9-9389-756ea91cf1d5.png)
+
+## Example 4, Transportation with Binary Option
+![image](https://user-images.githubusercontent.com/56926839/162250406-c25166cc-49c8-4ab8-818d-e24411cfa935.png)
+![image](https://user-images.githubusercontent.com/56926839/162250369-32c8efd4-5409-4858-945f-e19f34faed2e.png)
+![image](https://user-images.githubusercontent.com/56926839/162250429-9c1faccb-6a1b-4ecb-9e78-0af1322240fe.png)
+
+
 
 
 
