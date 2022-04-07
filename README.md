@@ -14,7 +14,7 @@ After all that you should destroy the fitness function with destroy_FiFunc();
 # Floating Point Chromosome Representation
 - Chosen crossover strategy: crossover occurs at the resolution of design variables
 - Mutation operation can be modeled as:
-- 
+
   𝑖𝑡ℎ𝑏𝑖𝑡=𝑟𝑎𝑛𝑑(0,𝑏𝑖𝑡𝑟𝑒𝑠)
   
   𝑣𝑎𝑙= (2^𝑖𝑡ℎ𝑏𝑖𝑡/2^𝑏𝑖𝑡𝑟𝑒𝑠 )(ub −lb)
@@ -41,5 +41,7 @@ After all that you should destroy the fitness function with destroy_FiFunc();
 - Mutation probability: 1 / ndv
 - Independent Populations: 4
 - Penalty scaling: 10
+
+![image](https://user-images.githubusercontent.com/56926839/162248807-f810ae4d-aed8-4c2e-aa10-45eff63f02b6.png) ![image](https://user-images.githubusercontent.com/56926839/162248822-e2b851e2-bed3-4816-92f3-22c23b9bf950.png)
 
 
