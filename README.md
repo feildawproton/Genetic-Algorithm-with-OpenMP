@@ -58,7 +58,17 @@ All constraints satisfied at “optimal”
 ![image](https://user-images.githubusercontent.com/56926839/162249564-934f8bc7-0230-455a-87be-9405b667b64c.png)
 ![image](https://user-images.githubusercontent.com/56926839/162249591-1c7428e0-2a93-48bd-b0bf-0e77ce09bdf3.png)
 
+## Example 2, p=20,000, std_dev_allow = 20,000, theta = 30 degrees, b1 = b3, alpha = .15
+![image](https://user-images.githubusercontent.com/56926839/162249752-9b78a329-bf54-46c9-bbd7-e6bbc6da457a.png)
+Min of iter 22 is 2.721918 with: 1.317647, 0.800000, 1.435294, 1.105882
+Because of high population there is almost always:
+Maximum & Minimum constraint violation in the population
+All constraints satisfied at “optimal”
+![image](https://user-images.githubusercontent.com/56926839/162249803-e3923940-bd21-46d4-9113-88fbe07c1179.png)
+![image](https://user-images.githubusercontent.com/56926839/162249820-a18bca55-e79c-43b0-a975-0a30edc15bfd.png)
 
+## Example 3, Sixe, Shape, and Topology, Failed FEA, p=20,000, std_dev_allow = 20,000, theta = 30 degrees, b1 = b3, alpha = .15, E = 10s*qrt(2)*20,000
+![image](https://user-images.githubusercontent.com/56926839/162250072-e5c8110c-34e7-489e-8104-ea9c6a403894.png)
 
 
 
