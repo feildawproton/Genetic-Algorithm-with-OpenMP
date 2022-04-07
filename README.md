@@ -51,6 +51,16 @@ After all that you should destroy the fitness function with destroy_FiFunc();
 ## Example 1, p=20,000, std_dev_allow = 20,000, theta = 30 degrees, b1 = b3
 ![image](https://user-images.githubusercontent.com/56926839/162249357-6642068a-fea9-41e6-8dbf-ed403bc1b875.png)
 
+Min of iter 5 is 2.699035 with: 0.862745, 0.258824,
+Because of high population there is almost always:
+Maximum & Minimum constraint violation in the population
+All constraints satisfied at “optimal”
+![image](https://user-images.githubusercontent.com/56926839/162249564-934f8bc7-0230-455a-87be-9405b667b64c.png)
+![image](https://user-images.githubusercontent.com/56926839/162249591-1c7428e0-2a93-48bd-b0bf-0e77ce09bdf3.png)
+
+
+
+
 
 
 
