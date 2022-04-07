@@ -12,16 +12,16 @@ Then call optimPop_Min() or optimPop_Max() depending on whether you are minimizi
 After all that you should destroy the fitness function with destroy_FiFunc();
 
 # Floating Point Chromosome Representation
-Chosen crossover strategy: crossover occurs at the resolution of design variables
-Mutation operation can be modeled as:
-𝑖𝑡ℎ𝑏𝑖𝑡=𝑟𝑎𝑛𝑑(0,𝑏𝑖𝑡𝑟𝑒𝑠)
-𝑣𝑎𝑙= (2^𝑖𝑡ℎ𝑏𝑖𝑡/2^𝑏𝑖𝑡𝑟𝑒𝑠 )(ub −lb)
-𝑚𝑢𝑡〖𝐷𝑉〗_𝑐ℎ𝑟𝑜𝑚={█(〖𝐷𝑉〗_𝑐ℎ𝑟𝑜𝑚+𝑣𝑎𝑙,  〖𝑏𝑖𝑡𝑠〗_(𝑐ℎ𝑟𝑜𝑚,𝐷𝑉,𝑖)=0@&〖𝐷𝑉〗_𝑐ℎ𝑟𝑜𝑚−𝑣𝑎𝑙,〖      𝑏𝑖𝑡𝑠〗_(𝑐ℎ𝑟𝑜𝑚,𝐷𝑉,𝑖)=1)┤
-Where bits_chrom,DV,i is calculated for the evaluation and not stored
-Chosen mutation strategy: mutation probability is evaluated at the resolution of design variables
-The chosen crossover and evaluating mutation per DV has the following probability distribution for f32 DVs:
-〖𝑚𝑢𝑡𝐷𝑉〗_𝑐ℎ𝑟𝑜𝑚∼𝑟𝑎𝑛𝑑(〖𝐷𝑉〗_𝑐ℎ𝑟𝑜𝑚+𝑟𝑎𝑛𝑑(𝑙𝑏 −〖𝐷𝑉〗_𝑐ℎ𝑟𝑜𝑚, ub −〖𝐷𝑉〗_𝑐ℎ𝑟𝑜𝑚 ))
-Which can be further simplified to the following (with the chosen mutation strategy):
-𝑟𝑛𝑑𝑖𝑛𝑡~ 𝑟𝑎𝑛𝑑() % (2^𝑏𝑖𝑡𝑟𝑒𝑠+1)
-〖𝑚𝑢𝑡𝐷𝑉〗_𝑐ℎ𝑟𝑜𝑚=  𝑟𝑛𝑑𝑖𝑛𝑡/(2^𝑏𝑖𝑡𝑟𝑒𝑠−1) (𝑢𝑏 −𝑙𝑏)+𝑙𝑏
+- Chosen crossover strategy: crossover occurs at the resolution of design variables
+- Mutation operation can be modeled as:
+  𝑖𝑡ℎ𝑏𝑖𝑡=𝑟𝑎𝑛𝑑(0,𝑏𝑖𝑡𝑟𝑒𝑠)
+  𝑣𝑎𝑙= (2^𝑖𝑡ℎ𝑏𝑖𝑡/2^𝑏𝑖𝑡𝑟𝑒𝑠 )(ub −lb)
+  𝑚𝑢𝑡〖𝐷𝑉〗_𝑐ℎ𝑟𝑜𝑚={█(〖𝐷𝑉〗_𝑐ℎ𝑟𝑜𝑚+𝑣𝑎𝑙,  〖𝑏𝑖𝑡𝑠〗_(𝑐ℎ𝑟𝑜𝑚,𝐷𝑉,𝑖)=0@&〖𝐷𝑉〗_𝑐ℎ𝑟𝑜𝑚−𝑣𝑎𝑙,〖      𝑏𝑖𝑡𝑠〗_(𝑐ℎ𝑟𝑜𝑚,𝐷𝑉,𝑖)=1)┤
+- Where bits_chrom,DV,i is calculated for the evaluation and not stored
+- Chosen mutation strategy: mutation probability is evaluated at the resolution of design variables
+- The chosen crossover and evaluating mutation per DV has the following probability distribution for f32 DVs:
+  〖𝑚𝑢𝑡𝐷𝑉〗_𝑐ℎ𝑟𝑜𝑚∼𝑟𝑎𝑛𝑑(〖𝐷𝑉〗_𝑐ℎ𝑟𝑜𝑚+𝑟𝑎𝑛𝑑(𝑙𝑏 −〖𝐷𝑉〗_𝑐ℎ𝑟𝑜𝑚, ub −〖𝐷𝑉〗_𝑐ℎ𝑟𝑜𝑚 ))
+- Which can be further simplified to the following (with the chosen mutation strategy):
+  𝑟𝑛𝑑𝑖𝑛𝑡~ 𝑟𝑎𝑛𝑑() % (2^𝑏𝑖𝑡𝑟𝑒𝑠+1)
+  〖𝑚𝑢𝑡𝐷𝑉〗_𝑐ℎ𝑟𝑜𝑚=  𝑟𝑛𝑑𝑖𝑛𝑡/(2^𝑏𝑖𝑡𝑟𝑒𝑠−1) (𝑢𝑏 −𝑙𝑏)+𝑙𝑏
 ![image](https://user-images.githubusercontent.com/56926839/162248177-d409108f-a4f1-41bd-aa43-ebf8a44cac1c.png)
