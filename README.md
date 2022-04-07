@@ -24,4 +24,14 @@ After all that you should destroy the fitness function with destroy_FiFunc();
 - Which can be further simplified to the following (with the chosen mutation strategy):
   𝑟𝑛𝑑𝑖𝑛𝑡~ 𝑟𝑎𝑛𝑑() % (2^𝑏𝑖𝑡𝑟𝑒𝑠+1)
   〖𝑚𝑢𝑡𝐷𝑉〗_𝑐ℎ𝑟𝑜𝑚=  𝑟𝑛𝑑𝑖𝑛𝑡/(2^𝑏𝑖𝑡𝑟𝑒𝑠−1) (𝑢𝑏 −𝑙𝑏)+𝑙𝑏**
-![image](https://user-images.githubusercontent.com/56926839/162248177-d409108f-a4f1-41bd-aa43-ebf8a44cac1c.png)
+
+- DV bit resolution = 8
+  - Max DV bit resolution would be = 15
+    - RAND_MAX on my system = 2^15 – 1
+- Population size = 100
+- Crossover strategy: tournament 
+- Mutation probability: 1 / ndv
+- Independent Populations: 4
+- Penalty scaling: 10
+
+
