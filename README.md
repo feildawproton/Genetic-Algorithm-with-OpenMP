@@ -11,7 +11,7 @@ You can run a check on whether or not the fitness function is well formed with c
 Then call optimPop_Min() or optimPop_Max() depending on whether you are minimizing the objective of maximizing the objective.
 After all that you should destroy the fitness function with destroy_FiFunc();
 
-# Floating Point Chromosome Representation
+## Floating Point Chromosome Representation
 - Chosen crossover strategy: crossover occurs at the resolution of design variables
 - Mutation operation can be modeled as:
 
@@ -33,6 +33,7 @@ After all that you should destroy the fitness function with destroy_FiFunc();
   
   〖𝑚𝑢𝑡𝐷𝑉〗_𝑐ℎ𝑟𝑜𝑚=  𝑟𝑛𝑑𝑖𝑛𝑡/(2^𝑏𝑖𝑡𝑟𝑒𝑠−1) (𝑢𝑏 −𝑙𝑏)+𝑙𝑏**
 
+## More settings and threading considerations
 - DV bit resolution = 8
   - Max DV bit resolution would be = 15
     - RAND_MAX on my system = 2^15 – 1
@@ -42,6 +43,16 @@ After all that you should destroy the fitness function with destroy_FiFunc();
 - Independent Populations: 4
 - Penalty scaling: 10
 
-![image](https://user-images.githubusercontent.com/56926839/162248807-f810ae4d-aed8-4c2e-aa10-45eff63f02b6.png) ![image](https://user-images.githubusercontent.com/56926839/162248822-e2b851e2-bed3-4816-92f3-22c23b9bf950.png)
+![image](https://user-images.githubusercontent.com/56926839/162248807-f810ae4d-aed8-4c2e-aa10-45eff63f02b6.png) 
+![image](https://user-images.githubusercontent.com/56926839/162248822-e2b851e2-bed3-4816-92f3-22c23b9bf950.png)
+![image](https://user-images.githubusercontent.com/56926839/162248822-e2b851e2-bed3-4816-92f3-22c23b9bf950.png)
+![image](https://user-images.githubusercontent.com/56926839/162248901-0b14ccc6-42bc-4223-8c81-6121a94311ee.png)
+
+## Example 1, p=20,000, std_dev_allow = 20,000, theta = 30 degrees, b1 = b3
+![image](https://user-images.githubusercontent.com/56926839/162249357-6642068a-fea9-41e6-8dbf-ed403bc1b875.png)
+
+
+
+
 
 
